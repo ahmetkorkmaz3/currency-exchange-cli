@@ -11,6 +11,13 @@
 
 > Döviz değişim komut istemci uygulaması
 
+<p align="center">
+  <a href="https://asciinema.org/a/315064" target="_blank">
+    <img src="https://asciinema.org/a/315064.svg" />
+  </a>
+</p>
+
+
 ## Author
 
 👤 **Ahmet Korkmaz**
