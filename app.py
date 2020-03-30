@@ -38,8 +38,6 @@ if __name__ == '__main__':
     arguments = docopt(__doc__, version='1.0')
     opt = docopt(__doc__, sys.argv[1:])
 
-
-
     if arguments['<base>'] and arguments['<symbols>']:
         base = arguments['<base>']
         symbols = arguments['<symbols>']
