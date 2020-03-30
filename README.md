@@ -47,7 +47,7 @@ python3 exchange.py try usd
 
 👤 **Ahmet Korkmaz**
 
-* Website: ahmetkorkmaz3.github.io
+* Website: [ahmetkorkmaz3.github.io](https://ahmetkorkmaz3.github.io)
 * Twitter: [@ahmetmkorkmaz](https://twitter.com/ahmetmkorkmaz)
 * Github: [@ahmetkorkmaz3](https://github.com/ahmetkorkmaz3)
 
