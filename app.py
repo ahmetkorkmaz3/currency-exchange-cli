@@ -29,11 +29,10 @@ def exchange(base, symbols='TRY'):
         return response_rate
     elif response.status_code == 400:
         print("İstenilen para birimleri bulunamadı.")
-        return None
+        sys.exit()
     else:
         print("Beklenmeyen bir hata oluştu.")
-        return None
-
+        sys.exit()
 
 if __name__ == '__main__':
     arguments = docopt(__doc__, version='1.0')
