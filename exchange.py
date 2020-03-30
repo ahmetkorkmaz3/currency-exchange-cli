@@ -1,4 +1,5 @@
 """Currency Exchange CLI
+
 Usage:
     app.py <base> [--count=<count>]
     app.py <base> <symbols> [--count=<count>]
@@ -9,6 +10,12 @@ Options:
     <symbols>  Dönüştürülmesi istenen para birimi
     -h --help  Uygulama kullanım yardımcısı
     -v --version  Uygulama versiyonu
+Examples:
+    python3 exchange.py eur
+    python3 exchange.py eur --count=10
+    python3 exchange.py eur usd
+    python3 exchange.py usd eur --count=5
+    python3 exchange.py try usd
 """
 from docopt import docopt
 import requests

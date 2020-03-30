@@ -17,6 +17,31 @@
   </a>
 </p>
 
+## Install
+
+```bash
+git clone https://github.com/ahmetkorkmaz3/currency-exchange-cli
+cd currency-exchange-cli
+python3 -m venv myenv
+source myenv/bin/activate
+pip install -r requirements.txt
+```
+
+## Usage
+
+```bash
+python3 exchange.py <base> <symbols> [--count=<count>]
+```
+
+## Examples
+```bash
+python3 exchange.py eur
+python3 exchange.py eur --count=10
+python3 exchange.py eur usd
+python3 exchange.py usd eur --count=5
+python3 exchange.py try usd
+```
+
 
 ## Author
 
